@@ -4,7 +4,10 @@
   "description": "Repo-root resolution capability: lazy git-based runtime root plus the eager .git-marker walk for build/codegen, the one sanctioned root-resolution point",
   "bounded": {
     "tagline": "Repo-root resolution capability: lazy git-based runtime root plus the eager .git-marker walk for build/codegen, the one sanctioned root-resolution point",
-    "kind": "door"
+    "kind": "door",
+    "facet": "verb",
+    "role": "resolver",
+    "domain": "repo/fs"
   },
   "license": "MIT",
   "type": "module",
