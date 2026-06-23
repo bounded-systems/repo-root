@@ -3,8 +3,16 @@
     "type": "name",
     "value": "Repo Root"
   },
+  "tagline": {
+    "type": "tagline",
+    "value": "The repo-root resolution capability — the one sanctioned place that answers \"where is the root of this repository?\""
+  },
   "description": {
     "type": "meta",
-    "value": "Repo-root resolution capability: lazy git-based runtime root plus the eager .git-marker walk for build/codegen, the one sanctioned root-resolution point"
+    "value": "The repo-root resolution capability — the one sanctioned place that answers \"where is the root of this repository? \" Two modes: a lazy, git-based resolver for runtime (asks git for the toplevel, via @bounded-systems/proc), and an eager . git-marker directory walk for build/cod…"
+  },
+  "keywords": {
+    "type": "body",
+    "value": "REPO-ROOT · GIT · CAPABILITY · MONOREPO · RESOLUTION"
   }
 }
